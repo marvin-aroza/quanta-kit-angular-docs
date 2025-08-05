@@ -82,7 +82,10 @@
             ],
             "styles": [
               "src/styles.scss"
-            ]
+            ],
+            "codeCoverage": true,
+            "codeCoverageExclude": [],
+            "karmaConfig": "karma.conf.js"
           }
         }
       }
