@@ -57,7 +57,7 @@
       "@semantic-release/git",
       {
         "assets": ["CHANGELOG.md", "package.json", "package-lock.json"],
-        "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+        "message": "chore(release): ${nextRelease.version} [skip ci]"
       }
     ],
     [
@@ -65,8 +65,20 @@
       {
         "assets": [
           {
-            "path": "dist/**",
-            "label": "Distribution files"
+            "path": "dist/quanta-kit-angular-docs/browser/main-*.js",
+            "label": "Main JavaScript bundle"
+          },
+          {
+            "path": "dist/quanta-kit-angular-docs/browser/index.html",
+            "label": "Application HTML"
+          },
+          {
+            "path": "dist/quanta-kit-angular-docs/browser/favicon.ico",
+            "label": "Favicon"
+          },
+          {
+            "path": "dist/quanta-kit-angular-docs/browser/3rdpartylicenses.txt",
+            "label": "Third-party licenses"
           }
         ]
       }
