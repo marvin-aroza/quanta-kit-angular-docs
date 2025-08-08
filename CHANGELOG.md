@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/marvin-aroza/quanta-kit-angular-docs/compare/v1.0.0...v1.1.0) (2025-08-08)
+
+
+### Features
+
+* **AAP7:** fix semantic release ([bba6e3a](https://github.com/marvin-aroza/quanta-kit-angular-docs/commit/bba6e3a68629df18950b42bc4346a36942d7cb82))
+
 # 1.0.0 (2025-08-08)
 
 
