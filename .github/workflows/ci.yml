@@ -431,6 +431,7 @@ jobs:
     - name: Run Semantic Release
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        HUSKY: 0
       run: |
         echo "🚀 Running semantic release..."
         npm run semantic-release
