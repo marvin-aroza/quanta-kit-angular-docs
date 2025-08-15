@@ -157,7 +157,7 @@ jobs:
 
     - name: Run tests with coverage
       run: |
-        npm test -- --watch=false --code-coverage --browsers=ChromeHeadless
+        npm run test:ci
       env:
         CI: true
 
@@ -431,6 +431,7 @@ jobs:
     - name: Run Semantic Release
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        HUSKY: 0
       run: |
         echo "🚀 Running semantic release..."
         npm run semantic-release
