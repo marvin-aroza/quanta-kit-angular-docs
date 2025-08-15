@@ -1,33 +1,109 @@
-# quanta-kit-angular-docs
-🧭 QuantaDocs is the official documentation and showcase platform for QuantaKit, designed to help developers explore, test, and integrate modular UI components with ease. Featuring interactive demos, real-time style editing, and theme customization, it brings clarity, performance, and precision into focus.
+# QuantaKit Angular Docs
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.3.
+🧭 **QuantaDocs** is the official documentation and showcase platform for QuantaKit, designed to help developers explore, test, and integrate modular UI components with ease. Featuring interactive demos, real-time style editing, and theme customization, it brings clarity, performance, and precision into focus.
 
-## Development server
+## 🌟 Features
 
-To start a local development server, run:
+- **📖 Interactive Documentation** - Comprehensive component guides with live examples
+- **🎮 Live Demos** - Real-time component interaction and testing
+- **🎨 Theme Customization** - Dynamic theme switching and style editing
+- **📱 Responsive Examples** - Mobile-first responsive demonstrations
+- **🔍 Component Explorer** - Browse and search all QuantaKit components
+- **⚡ Performance Focused** - Fast loading and smooth interactions
+- **♿ Accessibility Showcase** - WCAG compliance demonstrations
+- **📚 Usage Examples** - Copy-paste ready code snippets
 
+## 🛠️ Prerequisites
+
+- Node.js (version 22 or higher)
+- npm (comes with Node.js)
+- Git
+
+## 📦 Installation
+
+1. Clone the repository:
 ```bash
-ng serve
+git clone https://github.com/marvin-aroza/quanta-kit-angular-docs.git
+cd quanta-kit-angular-docs
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
+2. Install dependencies:
 ```bash
-ng generate component component-name
+npm install
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
+3. Start the development server:
 ```bash
-ng generate --help
+npm start
 ```
 
-## Building
+The documentation site will be available at `http://localhost:4200`.
+
+## 🚀 Quick Navigation
+
+- **Components** - Browse all QuantaKit components
+- **Themes** - Explore available design themes
+- **Examples** - Real-world implementation examples
+- **API Reference** - Detailed component API documentation
+- **Getting Started** - Installation and setup guides
+
+## 🏗️ Available Scripts
+
+- `npm start` - Start development server
+- `npm run build` - Build for production
+- `npm test` - Run unit tests
+- `npm run test:ci` - Run tests in CI mode with coverage
+
+## 📁 Project Structure
+
+```
+src/
+├── app/
+│   ├── components/     # Documentation components
+│   ├── pages/          # Documentation pages
+│   ├── shared/         # Shared utilities
+│   └── examples/       # Component examples
+├── assets/
+│   ├── images/         # Documentation images
+│   └── themes/         # Theme configurations
+└── styles/             # Global documentation styles
+```
+
+## 🎯 Content Areas
+
+### Component Documentation
+- **API Reference** - Props, events, and methods
+- **Usage Examples** - Common implementation patterns
+- **Accessibility** - WCAG compliance information
+- **Theming** - Customization options
+
+### Interactive Features
+- **Live Code Editor** - Edit and preview component code
+- **Theme Switcher** - Test components with different themes
+- **Responsive Viewer** - See components across device sizes
+- **Copy to Clipboard** - Easy code snippet copying
+
+## 🤝 Contributing
+
+We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details on:
+- Documentation standards
+- Example creation
+- Content organization
+- Review process
+
+## 📚 Related Documentation
+
+- **QuantaKit Library**: [Component source code and Storybook](https://github.com/marvin-aroza/quanta-kit-angular)
+- **Admin Panel**: [Example implementation](https://github.com/marvin-aroza/angular-admin-panel)
+
+## 📄 License
+
+This project is private and proprietary.
+
+## 🔗 Related Projects
+
+- [QuantaKit Angular](https://github.com/marvin-aroza/quanta-kit-angular) - UI Component Library
+- [Angular Admin Panel](https://github.com/marvin-aroza/angular-admin-panel) - Example Implementation
 
 To build the project run:
 
